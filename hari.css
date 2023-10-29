@@ -1,0 +1,112 @@
+.logo{
+  width:60px;
+  height:60px;
+
+
+}
+.spider{
+  height: 350px;
+  width:350px;
+
+}
+
+footer{
+  height: 540px!important;
+}
+#copyright{
+  color: white;
+  text-align: right;
+}
+.QR{
+  text-align:right;
+}
+
+.flex1{
+  display: inline;
+  float:center;
+  margin-right: 20px;
+}
+
+ul{
+  position: sticky;
+}
+
+
+
+hr{
+  color:orange;
+}
+
+h1,p,h4,h3,h5,h2{
+  font-family: verdana;
+}
+
+/* .card{
+  margin-top: 100px !important;
+} */
+
+.themecolor{
+  background-color: lightseagreen;
+}
+
+.animation{
+  width :40px;
+  height:40px;
+  background-color: lightseagreen;
+  position: relative;
+  animation :first 6s infinite
+}
+.animation2{
+  width :40px;
+  height:40px;
+  background-color: red;
+  position: relative;
+  animation :first 8s infinite reverse
+}
+.animation3{
+  width :40px;
+  height:40px;
+  background-color: red;
+  position: relative;
+  animation :second 6s infinite
+}
+.animation4{
+  width :40px;
+  height:40px;
+  background-color: lightseagreen;
+  position: relative;
+  animation :second 12s infinite reverse
+}
+
+
+
+@keyframes first{
+  0% {background-color: red; left:0px; top:0px;}
+  25% {background-color: yellow; left:200px; top:0px;}
+  50% {background-color: red; left:200px; top:200px;}
+  75% {background-color: blue; left:0px; top:20px;}
+  100% {background-color: green; left:0px; top:0px;}
+
+}
+@keyframes second{
+  0% {background-color: orange; left:200px; top:0px;}
+  25% {background-color: purple; left:0px; top:0px;}
+  50% {background-color: skyblue; left:0px; top:200px;}
+  75% {background-color: cyan; left:0px; top:0px;}
+  100% {background-color: orange; left:200px; top:200px;}
+
+}
+
+@media screen and (max-width: 700px){
+  .flex2,.mx-5{
+    display:none !important;
+  }
+
+}
+@media screen and (min-width: 828px){
+  br{
+    display: none;
+  }
+
+
+}
